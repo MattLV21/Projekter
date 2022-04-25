@@ -1,0 +1,32 @@
+body {
+    background-color: #f5f5f5;
+}
+main{
+    width:100vw;
+    height:100vh;
+}
+.save {
+    position: fixed;
+    left: 45vw;
+    top: 55vh;
+    width: 10vw;
+    height: 5vh;
+    border: none;
+    border-radius: 10vh;
+    color: red;
+    font-size: large;
+    font-weight: bold;
+    background-color: rgb(116, 114, 114);
+}
+.save:hover {
+    background-color: rgb(85, 85, 85);
+}
+.inputFile {
+    position: fixed;
+    left: 45vw;
+    top: 45vh;
+    width: 10vw;
+    height: 5vh;
+    font-size: medium;
+    font-weight: bold;
+}
